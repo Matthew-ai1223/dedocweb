@@ -3,260 +3,395 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeDoc - Your AI-Powered Healthcare Companion</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>DeDoc - AI-Powered Healthcare Companion | 24/7 Medical Support</title>
+    <meta name="title" content="DeDoc - AI-Powered Healthcare Companion | 24/7 Medical Support">
+    <meta name="description" content="Experience revolutionary healthcare with DeDoc's AI-powered medical services. Get 24/7 access to AI doctors, nurses, mental health support, and symptom checking. Download the app or use online.">
+    <meta name="keywords" content="AI healthcare, virtual doctor, medical app, telemedicine, mental health, symptom checker, AI nurse, healthcare companion, medical consultation, health monitoring">
+    <meta name="author" content="DeDoc">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dedocweb.vercel.app/">
+    <meta property="og:title" content="DeDoc - AI-Powered Healthcare Companion | 24/7 Medical Support">
+    <meta property="og:description" content="Experience revolutionary healthcare with DeDoc's AI-powered medical services. Get 24/7 access to AI doctors, nurses, mental health support, and symptom checking.">
+    <meta property="og:image" content="https://dedocweb.vercel.app/images/dedoc-og-image.jpg">
+    <meta property="og:site_name" content="DeDoc">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dedocweb.vercel.app/">
+    <meta property="twitter:title" content="DeDoc - AI-Powered Healthcare Companion | 24/7 Medical Support">
+    <meta property="twitter:description" content="Experience revolutionary healthcare with DeDoc's AI-powered medical services. Get 24/7 access to AI doctors, nurses, mental health support, and symptom checking.">
+    <meta property="twitter:image" content="https://dedocweb.vercel.app/images/dedoc-twitter-image.jpg">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#2563eb">
+    <meta name="msapplication-TileColor" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="DeDoc">
+    <meta name="application-name" content="DeDoc">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dedocweb.vercel.app/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalOrganization",
+        "name": "DeDoc",
+        "alternateName": "DeDoc Healthcare",
+        "description": "AI-powered healthcare companion providing 24/7 medical support, virtual consultations, and health monitoring services.",
+        "url": "https://dedoc.vercel.app/",
+        "logo": "https://dedoc.vercel.app/images/dedoc-logo.png",
+        "image": "https://dedoc.vercel.app/images/dedoc-hero.jpg",
+        "sameAs": [
+            "https://facebook.com/dedoc",
+            "https://twitter.com/dedoc",
+            "https://instagram.com/dedoc",
+            "https://linkedin.com/company/dedoc"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "availableLanguage": "English",
+            "areaServed": "Worldwide"
+        },
+        "service": [
+            {
+                "@type": "MedicalService",
+                "name": "AI Medical Doctor",
+                "description": "24/7 access to AI-powered virtual doctor consultations"
+            },
+            {
+                "@type": "MedicalService",
+                "name": "AI Mental Health Therapist",
+                "description": "Virtual therapy and mental health counseling powered by AI"
+            },
+            {
+                "@type": "MedicalService",
+                "name": "Symptom Checker",
+                "description": "Interactive tool for symptom analysis and health assessment"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "10000",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Worldwide"
+        },
+        "foundingDate": "2024",
+        "numberOfEmployees": "50-100"
+    }
+    </script>
+    
+    <!-- Additional Structured Data for App -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "DeDoc Healthcare App",
+        "description": "AI-powered healthcare companion app with virtual doctors, nurses, and mental health support",
+        "operatingSystem": "Android",
+        "applicationCategory": "MedicalApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "5000"
+        }
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <i class="fas fa-heartbeat"></i>
-                <h2>DeDoc</h2>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-heartbeat" aria-hidden="true"></i>
+                    <h1>DeDoc</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" aria-label="Go to home section">Home</a></li>
+                    <li><a href="#services" aria-label="Go to services section">Services</a></li>
+                    <li><a href="#features" aria-label="Go to features section">Features</a></li>
+                    <li><a href="#pricing" aria-label="Go to pricing section">Pricing</a></li>
+                    <li><a href="https://dedoc.vercel.app/contact.html" aria-label="Contact DeDoc">Contact</a></li>
+                    <li><a href="https://dedoc.vercel.app/register.html" class="login-btn" aria-label="Sign up for free">Sign Up for Free</a></li>
+                </ul>
+                <div class="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="https://dedoc.vercel.app/contact.html">Contact</a></li>
-                <li><a href="https://dedoc.vercel.app/register.html" class="login-btn">Sign Up for Free</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="futuristic-badge">
-                    <i class="fas fa-robot"></i>
-                    <span>AI-POWERED</span>
-                </div>
-                <h1>Welcome to the Future of Healthcare</h1>
-                <p>Experience revolutionary healthcare solutions with our comprehensive Clinical Decision Support System. Get instant access to AI powered doctors, nurses, and mental health support.</p>
-                <div class="tech-specs">
-                    <!-- <div class="spec-item">
-                        <i class="fas fa-microchip"></i>
-                        <span>Neural Networks</span>
+    <main>
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="futuristic-badge">
+                        <i class="fas fa-robot" aria-hidden="true"></i>
+                        <span>AI-POWERED</span>
                     </div>
-                    <div class="spec-item">
-                        <i class="fas fa-brain"></i>
-                        <span>Machine Learning</span>
+                    <h1 id="hero-title">Welcome to the Future of Healthcare</h1>
+                    <p>Experience revolutionary healthcare solutions with our comprehensive Clinical Decision Support System. Get instant access to AI powered doctors, nurses, and mental health support.</p>
+                    <div class="tech-specs">
+                        <!-- <div class="spec-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Neural Networks</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure AI</span>
+                        </div> -->
                     </div>
-                    <div class="spec-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <span>Secure AI</span>
-                    </div> -->
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="downloadApp()" aria-label="Download DeDoc mobile app">
+                            <i class="fas fa-download" aria-hidden="true"></i> Download App
+                            <span class="btn-glow"></span>
+                        </button>
+                        <button class="btn-secondary" onclick="window.location.href='https://dedoc.vercel.app/'" aria-label="Continue using DeDoc in browser">Continue With Browser</button>
+                    </div>
                 </div>
-                <div class="hero-buttons">
-                    <button class="btn-primary" onclick="downloadApp()">
-                        <i class="fas fa-download"></i> Download App
-                        <span class="btn-glow"></span>
+                <div class="hero-image">
+                    <div class="ai-healthcare-illustration">
+                        <div class="hologram-ring"></div>
+                        <i class="fas fa-user-md" data-tooltip="AI Doctor" aria-hidden="true"></i>
+                        <i class="fas fa-heartbeat" data-tooltip="Health Monitor" aria-hidden="true"></i>
+                        <i class="fas fa-brain" data-tooltip="Neural AI" aria-hidden="true"></i>
+                        <div class="data-stream">
+                            <div class="data-line"></div>
+                            <div class="data-line"></div>
+                            <div class="data-line"></div>
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <i class="fas fa-chart-line" aria-hidden="true"></i>
+                            <span>Real-time Analytics</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span>24/7 Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scan-line"></div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats" aria-labelledby="stats-title">
+            <div class="stats-container">
+                <h2 id="stats-title" class="visually-hidden">DeDoc Statistics</h2>
+                <div class="stat-item">
+                    <h3>10K+</h3>
+                    <p>Active Users</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Support</p>
+                </div>
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Satisfaction</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="services-title">Our Services</h2>
+                    <p>Comprehensive Healthcare Solutions</p>
+                    <p class="subtitle">Experience the future of healthcare with our AI-powered services</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-md" aria-hidden="true"></i>
+                        </div>
+                        <h3>AI Medical Doctor</h3>
+                        <p>24/7 access to AI-powered virtual doctor consultations for immediate medical guidance</p>
+                        <ul>
+                            <li>Instant Medical Advice</li>
+                            <li>Symptom Analysis</li>
+                            <li>Treatment Recommendations</li>
+                        </ul>
+                        <button class="learn-more" aria-label="Learn more about AI Medical Doctor">Learn More</button>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-nurse" aria-hidden="true"></i>
+                        </div>
+                        <h3>AI Medical Nurses</h3>
+                        <p>Round-the-clock nursing assistance for basic health advice and care guidance</p>
+                        <ul>
+                            <li>Care Instructions</li>
+                            <li>Health Monitoring</li>
+                            <li>Medication Reminders</li>
+                        </ul>
+                        <button class="learn-more" aria-label="Learn more about AI Medical Nurses">Learn More</button>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                        </div>
+                        <h3>AI Mental Health Therapist</h3>
+                        <p>Supportive virtual therapy and mental health counseling powered by AI</p>
+                        <ul>
+                            <li>24/7 Emotional Support</li>
+                            <li>Stress Management</li>
+                            <li>Personalized Guidance</li>
+                        </ul>
+                        <button class="learn-more" aria-label="Learn more about AI Mental Health Therapist">Learn More</button>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-stethoscope" aria-hidden="true"></i>
+                        </div>
+                        <h3>Symptom Checker</h3>
+                        <p>Interactive tool for symptom analysis and preliminary health assessment</p>
+                        <ul>
+                            <li>Quick Assessment</li>
+                            <li>Risk Evaluation</li>
+                            <li>Health Insights</li>
+                        </ul>
+                        <button class="learn-more" aria-label="Learn more about Symptom Checker">Learn More</button>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-ambulance" aria-hidden="true"></i>
+                        </div>
+                        <h3>Emergency Support</h3>
+                        <p>Quick response system for urgent medical assistance and emergency care</p>
+                        <ul>
+                            <li>Rapid Response</li>
+                            <li>Emergency Guidance</li>
+                            <li>Location Tracking</li>
+                        </ul>
+                        <button class="learn-more" aria-label="Learn more about Emergency Support">Learn More</button>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bell" aria-hidden="true"></i>
+                        </div>
+                        <h3>Daily Updates</h3>
+                        <p>Regular medical updates via WhatsApp and Gmail to keep you informed</p>
+                        <ul>
+                            <li>Health Tips</li>
+                            <li>Medical News</li>
+                            <li>Custom Alerts</li>
+                        </ul>
+                        <button class="learn-more" aria-label="Learn more about Daily Updates">Learn More</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features" aria-labelledby="features-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="features-title">Key Features</h2>
+                    <p>Why Choose DeDoc?</p>
+                </div>
+                <div class="features-grid">
+                    <article class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>Secure Login</h3>
+                        <p>Protected access to your personal health dashboard</p>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <h3>Easy Payments</h3>
+                        <p>Seamless payment gateway and subscription management</p>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-tachometer-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>User Dashboard</h3>
+                        <p>Intuitive interface for managing your health journey</p>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset" aria-hidden="true"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock access to healthcare assistance</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 id="cta-title">Ready to Take Control of Your Health?</h2>
+                    <p>Join thousands of users who trust DeDoc for their healthcare needs</p>
+                    <button class="btn-primary" onclick="downloadApp()" aria-label="Download DeDoc app now">
+                        <i class="fas fa-download" aria-hidden="true"></i> Download App Now
                     </button>
-                    <button class="btn-secondary" onclick="window.location.href='https://dedoc.vercel.app/'">Continue With Browser</button>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="ai-healthcare-illustration">
-                    <div class="hologram-ring"></div>
-                    <i class="fas fa-user-md" data-tooltip="AI Doctor"></i>
-                    <i class="fas fa-heartbeat" data-tooltip="Health Monitor"></i>
-                    <i class="fas fa-brain" data-tooltip="Neural AI"></i>
-                    <div class="data-stream">
-                        <div class="data-line"></div>
-                        <div class="data-line"></div>
-                        <div class="data-line"></div>
-                    </div>
-                </div>
-                <div class="floating-elements">
-                    <div class="floating-card">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Real-time Analytics</span>
-                    </div>
-                    <div class="floating-card">
-                        <i class="fas fa-clock"></i>
-                        <span>24/7 Available</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="scan-line"></div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats">
-        <div class="stats-container">
-            <div class="stat-item">
-                <h3>10K+</h3>
-                <p>Active Users</p>
-            </div>
-            <div class="stat-item">
-                <h3>24/7</h3>
-                <p>Support</p>
-            </div>
-            <div class="stat-item">
-                <h3>98%</h3>
-                <p>Satisfaction</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Services</h2>
-                <p>Comprehensive Healthcare Solutions</p>
-                <p class="subtitle">Experience the future of healthcare with our AI-powered services</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-user-md"></i>
-                    </div>
-                    <h3>AI Medical Doctor</h3>
-                    <p>24/7 access to AI-powered virtual doctor consultations for immediate medical guidance</p>
-                    <ul>
-                        <li>Instant Medical Advice</li>
-                        <li>Symptom Analysis</li>
-                        <li>Treatment Recommendations</li>
-                    </ul>
-                    <button class="learn-more">Learn More</button>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-user-nurse"></i>
-                    </div>
-                    <h3>AI Medical Nurses</h3>
-                    <p>Round-the-clock nursing assistance for basic health advice and care guidance</p>
-                    <ul>
-                        <li>Care Instructions</li>
-                        <li>Health Monitoring</li>
-                        <li>Medication Reminders</li>
-                    </ul>
-                    <button class="learn-more">Learn More</button>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>AI Mental Health Therapist</h3>
-                    <p>Supportive virtual therapy and mental health counseling powered by AI</p>
-                    <ul>
-                        <li>24/7 Emotional Support</li>
-                        <li>Stress Management</li>
-                        <li>Personalized Guidance</li>
-                    </ul>
-                    <button class="learn-more">Learn More</button>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-stethoscope"></i>
-                    </div>
-                    <h3>Symptom Checker</h3>
-                    <p>Interactive tool for symptom analysis and preliminary health assessment</p>
-                    <ul>
-                        <li>Quick Assessment</li>
-                        <li>Risk Evaluation</li>
-                        <li>Health Insights</li>
-                    </ul>
-                    <button class="learn-more">Learn More</button>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-ambulance"></i>
-                    </div>
-                    <h3>Emergency Support</h3>
-                    <p>Quick response system for urgent medical assistance and emergency care</p>
-                    <ul>
-                        <li>Rapid Response</li>
-                        <li>Emergency Guidance</li>
-                        <li>Location Tracking</li>
-                    </ul>
-                    <button class="learn-more">Learn More</button>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-bell"></i>
-                    </div>
-                    <h3>Daily Updates</h3>
-                    <p>Regular medical updates via WhatsApp and Gmail to keep you informed</p>
-                    <ul>
-                        <li>Health Tips</li>
-                        <li>Medical News</li>
-                        <li>Custom Alerts</li>
-                    </ul>
-                    <button class="learn-more">Learn More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header">
-                <h2>Key Features</h2>
-                <p>Why Choose DeDoc?</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Secure Login</h3>
-                    <p>Protected access to your personal health dashboard</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-credit-card"></i>
-                    </div>
-                    <h3>Easy Payments</h3>
-                    <p>Seamless payment gateway and subscription management</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-tachometer-alt"></i>
-                    </div>
-                    <h3>User Dashboard</h3>
-                    <p>Intuitive interface for managing your health journey</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3>24/7 Support</h3>
-                    <p>Round-the-clock access to healthcare assistance</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Take Control of Your Health?</h2>
-                <p>Join thousands of users who trust DeDoc for their healthcare needs</p>
-                <button class="btn-primary" onclick="downloadApp()">
-                    <i class="fas fa-download"></i> Download App Now
-                </button>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer id="contact" class="footer">
