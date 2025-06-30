@@ -270,19 +270,16 @@
             }, 1000);
         }
 
-        // Check if user is coming from index.html
-        function checkReferrer() {
-            const referrer = document.referrer;
-            if (referrer.includes('index.html') || referrer.includes('dedocweb.vercel.app')) {
-                // User came from index.html, increment count
-                incrementCount();
-            }
+        // Auto-increment counter when load.html is accessed
+        function autoIncrementOnLoad() {
+            // Automatically increment the counter when this page loads
+            incrementCount();
         }
 
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
             loadVisitCount();
-            checkReferrer();
+            autoIncrementOnLoad();
         });
 
         // Add keyboard shortcuts

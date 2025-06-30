@@ -480,5 +480,20 @@
     </div>
 
     <script src="script.js"></script>
+    
+    <!-- Visit Tracking Script -->
+    <script>
+        // Track visits to index.html
+        document.addEventListener('DOMContentLoaded', function() {
+            // Increment visit counter when index.html loads
+            const currentCount = parseInt(localStorage.getItem('dedocVisitCount') || 0);
+            const newCount = currentCount + 1;
+            
+            localStorage.setItem('dedocVisitCount', newCount);
+            localStorage.setItem('dedocLastVisit', new Date().toISOString());
+            
+            console.log('DeDoc visit tracked. Total visits:', newCount);
+        });
+    </script>
 </body>
 </html> 
