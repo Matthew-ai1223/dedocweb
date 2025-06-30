@@ -270,16 +270,9 @@
             }, 1000);
         }
 
-        // Auto-increment counter when load.html is accessed
-        function autoIncrementOnLoad() {
-            // Automatically increment the counter when this page loads
-            incrementCount();
-        }
-
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
             loadVisitCount();
-            autoIncrementOnLoad();
         });
 
         // Add keyboard shortcuts
