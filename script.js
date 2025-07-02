@@ -388,6 +388,38 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Services Ad Popup Logic
+    const adModal = document.getElementById('servicesAdModal');
+    const adClose = document.querySelector('.services-ad-close');
+    // TEMP: Always show the popup for debugging
+    if (adModal) {
+        setTimeout(() => {
+            adModal.style.display = 'flex';
+            // sessionStorage.setItem('servicesAdShown', 'true'); // Commented for debug
+        }, 3000);
+    }
+    // Close logic
+    if (adClose) {
+        adClose.addEventListener('click', () => {
+            adModal.style.display = 'none';
+        });
+    }
+    // Close on background click
+    if (adModal) {
+        adModal.addEventListener('click', (e) => {
+            if (e.target === adModal) {
+                adModal.style.display = 'none';
+            }
+        });
+    }
+    // Also close on 'Not now' button
+    const adDismiss = document.querySelector('.services-ad-dismiss');
+    if (adDismiss) {
+        adDismiss.addEventListener('click', () => {
+            adModal.style.display = 'none';
+        });
+    }
 });
 
 // Export functions for global access
